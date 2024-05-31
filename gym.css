@@ -1,0 +1,92 @@
+
+.header {
+    background-color: rgb(151, 197, 193);
+    display: flex;
+    align-items: center;
+    box-shadow: 0 0 25px 0 black;
+    }
+    .header * {
+    display: inline;
+    padding: 5px;
+    }
+    .header-li-a {
+    text-decoration: none;
+    }
+    .nav{
+    display: flex;
+    gap:5px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.home{
+    background-image: url("kar.jpg");
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: bold;
+    font-family: "sans-serif"; 
+    border-radius: 0px; 
+}
+
+.about{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.row{
+    display: flex;
+}
+.column{
+    flex: 33.33%;
+    padding: 5px;
+}
+.programs{
+    border-width: 10px;
+    border-color: black;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    page-break-after: auto; 
+}
+.contact{
+    background-color: lightslategrey;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    text-align: center;
+}
+.card{
+    padding: 16px;
+    display: flex;
+    text-align: center;
+}
+.footer-list{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(123, 129, 134);
+    background-size: cover;
+    justify-content: center;
+}
+.footer-row{
+display: flex;
+}
+.footer-column{
+    flex: 33.33%;
+    padding: 5px;   
+}
+.footer-column-items{
+    text-decoration: underline;
+}
