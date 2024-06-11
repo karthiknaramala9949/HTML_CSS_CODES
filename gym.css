@@ -1,0 +1,71 @@
+.im-size{
+    height: 50px;
+    width: 50px;
+}
+.home{
+    background-image: url("kar.jpg");
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: bold;
+    font-family: "sans-serif"; 
+    border-radius: 0px; 
+}
+
+.about{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.row{
+    display: flex;
+}
+.column{
+    flex: 33.33%;
+    padding: 5px;
+}
+.programs{
+    border-width: 10px;
+    border-color: black;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    page-break-after: auto; 
+}
+.contact{
+    background-color: lightslategrey;
+    text-align: center;
+}
+.card-1{
+    padding: 16px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    display: flex;
+    text-align: center;
+}
+.footer-list{
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(29, 31, 33);
+    background-size: cover;
+    justify-content: center;
+}
+.footer-row{
+display: flex;
+}
+.footer-column{
+    flex: 33.33%;
+    padding: 5px;   
+}
